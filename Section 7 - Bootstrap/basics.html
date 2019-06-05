@@ -7,15 +7,61 @@
 </head>
 <body>
 
-<h1>Bootstrap Basics</h1>
+<div class="container">
+    <h1>Bootstrap Basics</h1>
 
-<button class="btn btn-danger xs">CLICK ME!</button>
-<button class="btn btn-success xs active">CLICK ME!</button>
-<button class="btn btn-success xs disabled">CLICK ME!</button>
+    <button class="btn btn-danger xs">CLICK ME!</button>
+    <button class="btn btn-success xs active">CLICK ME!</button>
+    <button class="btn btn-success xs disabled">CLICK ME!</button>
 
+    <a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">BootStrap
+        Docs</a>
 
-<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">BootStrap
-    Docs</a>
+    <div class="jumbotron">
+        <h1>This is a jumbotron</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae enim laborum
+            nesciunt similique? Ad commodi consequuntur eligendi eveniet maxime. Aperiam deserunt id
+            magni nobis officiis quo saepe unde voluptatum.</p>
+        <button class="btn btn-success btn-lg">Hi there</button>
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1"
+                   placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Check me out
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <!--    Inline Form-->
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="exampleInputName2">Name</label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail2">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail2"
+                   placeholder="jane.doe@example.com">
+        </div>
+        <button type="submit" class="btn btn-default">Send invitation</button>
+    </form>
+</div>
 
 </body>
 </html>
